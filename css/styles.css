@@ -71,19 +71,6 @@ img {
     border-radius: 2px;
 
 }
-.header-address {
-    display: flex;
-    align-items: center;
-}
-
-.header-address-list {
-    display: flex;
-    gap: 41px;
-}
-
-.header-address-link {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -125,12 +112,16 @@ body {
 }
 
 .header-address {
+    display: flex;
+    align-items: center;
     font-style: normal;
 }
 
 .header-address-list {
+    display: flex;
     gap: 40px;
 }
+
 .header-address-link {
     font-size: 16px;
     line-height: 1.5;
